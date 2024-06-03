@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <button onclick="myFunction()">Replace</button>&nbsp;<button onclick="myFunction1()">Replace1</button> -->
+    <p id="demo"></p>
+    <script>
+        /*const x=5;
+        const y=6;
+        let z=x+y;
+        document.getElementById("demo").innerHTML="The sum is:"+z*/
+
+        /*let x=5;
+        let y=100;
+        document.getElementById("demo").innerHTML=x*y*/
+
+        /*let a=2;
+        a+=13;
+        document.getElementById("demo").innerHTML=a*/
+
+        /*let a="Accelerlab";
+        let b=" Solution";
+        let c=" Moodabidire"
+        document.getElementById("demo").innerHTML=a+b+c;*/
+        
+        /*let a="5"+5;
+        let b="Hello"+"5";
+        document.getElementById("demo").innerHTML=b*/
+
+        /*let x=5;
+        let y="5";
+        document.getElementById("demo").innerHTML=(x==y)*/
+
+        /*let x=6;
+        let y=3;*/
+        /*document.getElementById("demo").innerHTML=
+        (x<10&&y>1)+"<br>"+(x<10&&y<1);*/
+        /*document.getElementById("demo").innerHTML=
+        !(x===y)+"<br>"+!(x>y);*/
+
+        /*let len=16;
+        let bre=14;//number
+
+        let color="Yellow";
+        let lastname="Doe";//string
+        
+        let a=true;
+        let b=false;//boolean
+
+        const person={fname:"John",lname:"Doe"}//constant
+        const arr=["Saab","Volvo","BMW"];//array
+        const date=new Date("2022-03-25");//date*/
+
+        /*function funname(parameter1,parameter2){
+            //statement
+            a=parameter1+parameter2;
+        }
+        funname(10,20);
+        document.getElementById("demo").innerHTML=a;*/
+        /*function funname1(p1,p2){
+            //statement
+           return p1*p2
+        }
+        document.getElementById("demo").innerHTML=funname1(4,6);*/
+
+       /*let a={name:"John",age:35}
+        console.log(a.age);//accessing object using console*/
+
+        /*let b=["apple","orange","mango"];
+        document.getElementById("demo").innerHTML=b[1];
+        console.log(b[2]);
+        console.log(b.join('*'))
+        console.log(b)
+        console.log(b.pop())//pop last element
+        console.log(b)
+        console.log(b.push("grape"))//push at last
+        console.log(b)
+        console.log(b.push("grape"))*/
+
+        //condition loop
+        /*let x=5
+        if(x>10){
+            console.log("x is greater than 10")
+        }
+        else if(x==5){
+            console.log("x is equal to 5")
+        }
+        else{
+            console.log("x is less than 5")
+        }*/
+        /*const time=new Date().getHours();
+        let greeting;
+        if(time<10){
+            greeting="Good Morning";
+        }
+        else if(time<20){
+            greeting="Good Day";
+        }
+        else{
+            greeting="Good Evening";
+        }
+        //document.getElementById("demo").innerHTML=greeting;
+        console.log(greeting);*/
+
+        //switch syntax
+        /*switch(expression){
+            case 1:
+            //code block
+            case 2:
+            //code block
+            default:
+            //code block
+        }
+        //code block*/
+        /*switch(new Date().getDay()){
+            case 0:
+                day="Sunday";
+                break;
+            case 1:
+                day="Monday";
+                break;
+            case 2:
+                day="Tuesday";
+                break;
+            case 3:
+                day="Wednesday";
+                break;
+            case 4:
+                day="Thursday";
+                break;
+            case 5:
+                day="Friday";
+                break;
+            case 6:
+                day="Saturday";
+                break;
+        }
+        document.getElementById("demo").innerHTML=day;*/
+        /*day=new Date().getDay();
+        switch(day){
+            case 0:
+                day="Sunday";
+                break;
+            case 1:
+                day="Monday";
+                break;
+            case 2:
+                day="Tuesday";
+                break;
+            case 3:
+                day="Wednesday";
+                break;
+            case 4:
+                day="Thursday";
+                break;
+            default:
+                day="Day is not available";
+            }
+            document.getElementById("demo").innerHTML=day;*/
+
+            /*let text="Accelerlab solutions"
+            console.log(text);
+            console.log(text.search("solutions"))*/
+
+            //replace
+            /*function myFunction(){
+            let text=document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML=text.replace("Moodbidire","Accelerlab");
+            }
+            function myFunction1(){
+            let text=document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML=text.replace("Accelerlab","Moodbidire");
+        }*/
+
+        //try catch
+        /*try{
+            allert:"Hello Pratheek!";
+        }
+        catch(error){
+            console.log("something error")
+        }*/
+        //normal function
+        /*function myFunc(){
+        }
+        //arrow function
+        const myFunc=()=>{
+        }*/
+        /*const array=['apple','banana','orange'];
+        array.map((item)=>console.log(item))
+        let a=[1,2,3,4]
+        array.map((a)=>console.log(a))*/
+
+        /*const num=[1,2,3,4];
+        const[first,second,third,fourth]=num;
+        console.log(first,second,third,fourth);
+        console.log(second,fourth)*/
+
+        /*const person={name:"john",age:35}
+        const{name,age}=person;
+        console.log(name,age);*/
+
+        //spread operator
+        /*let a=[1,2,3,4];
+        let b=["sooraj","nithin"]
+        let c=[...a,...b]
+        console.log(c)*/
+
+        //rest operator
+        /*let a=[1,2,3,4,5,6]
+        const[one,two,...rest]=a;
+        console.log(one,two,rest)*/
+
+        /*const myveh={
+            brand:'Ford',
+            model:'Mustang',
+            color:'red'
+        }
+        const upveh={
+            type:'car',
+            year:2021,
+            color:'yellow'
+        }
+        const myupveh={...myveh,...upveh}
+        console.log(myupveh)*/
+
+        let x="10"
+        x===10 ? console.log("match"): console.log("don't match")
+    </script>    
+</body>
+</html>
